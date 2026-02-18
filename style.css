@@ -4,6 +4,11 @@ html{
     background-color: rgb(87, 87, 87);
 }
 
+body{
+    margin:0;
+    padding:0;
+}
+
 section{
     height: 90vh;
     scroll-snap-align: start;
@@ -13,7 +18,7 @@ section{
 
 nav{
     position: sticky;
-    top: 0;
+    top: 0vh;
     height: 10vh;
     background-color: rgb(204, 204, 204);
 }
